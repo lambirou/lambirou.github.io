@@ -1,2 +1,2 @@
-# I'm Roland Edi (<i>Alias lambirou</i>)
+# I'm Roland Edi (`Alias lambirou`)
 Welcome to my website
