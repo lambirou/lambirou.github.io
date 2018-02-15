@@ -2,7 +2,7 @@
 
 <!--![logo](_medias/php_logo_text.svg)-->
 
-<p align="center"><img src="_medias/logo-babiphp-text-banner.png" height="100"></p>
+<p align="center"><img src="https://lambirou.github.io/babiphp/medias/logo-babiphp-text-banner.png" height="100"></p>
 
 # BabiPHP <small>0.9.4</small>
 
