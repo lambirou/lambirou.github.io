@@ -7,7 +7,7 @@ BabiPHP est un Framework de développement d'applications - un <i>toolkit</i> (t
 ## Exigences du serveur
 
 * HTTP Server. Par exemple: Apache. mod_rewrite est préférable, mais en aucun cas nécessaire
-* PHP 5.6.0 ou plus (y compris PHP 7.1.x, 7.2.x)
+* PHP 7.1.2 ou plus (y compris 7.2.x)
 * extension PHP mbstring
 * extension PHP intl
 
@@ -28,9 +28,9 @@ Une fois que Composer finit le téléchargement du squelette de l’application 
 #### Configuration rapide:
 
 <ol>
-<li>Ouvrez le fichier <i>src/config/Config.php</i> avec un éditeur de texte et définissez votre configuration en suivant les instructions dans les lignes de commentaire qui précèdent.</li>
-<li>Si vous avez l'intention d'utiliser un chiffrement ou de gérer des utilisateurs, définissez votre clé de cryptage en éditant le fichier <i>src/config/Security.php</i>.</li>
-<li>Dans le cas où vous souhaitez utiliser une base de données, ouvrez le fichier <i>src/config/Database.php</i> avec un éditeur de texte et définissez les paramètres de votre base de données.</li>
+<li>Ouvrez le fichier <i>config/Config.php</i> avec un éditeur de texte et définissez votre configuration en suivant les instructions dans les lignes de commentaire qui précèdent.</li>
+<li>Si vous avez l'intention d'utiliser un chiffrement ou de gérer des utilisateurs, définissez votre clé de cryptage en éditant le fichier <i>config/Security.php</i>.</li>
+<li>Dans le cas où vous souhaitez utiliser une base de données, ouvrez le fichier <i>config/Database.php</i> avec un éditeur de texte et définissez les paramètres de votre base de données.</li>
 </ol>
 
 > Vous devriez être maintenant capable de vous rendre sur le lien votre application BabiPHP et voir la page d’accueil par défaut.
@@ -41,7 +41,7 @@ Une mesure supplémentaire à prendre dans les environnements de production est 
 
 C'est tout!
 
-> Si vous êtes nouveau sur BabiPHP, lisez la section Mise en route du Guide de l'utilisateur (situé dans le repertoire `docs/`) pour commencer à apprendre comment créer des applications PHP dynamiques.
+> Si vous êtes nouveau sur BabiPHP, lisez la section Mise en route du [Guide d'utilisation](https://lambirou.github.io/babiphp/#/) pour commencer à apprendre comment créer des applications PHP dynamiques.
 
 <br>
 
