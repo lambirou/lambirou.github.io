@@ -4,7 +4,7 @@
 
 <p align="center"><img src="https://lambirou.github.io/babiphp/medias/logo-babiphp-text-banner.png" height="100"></p>
 
-# BabiPHP <small>1.0.1</small>
+# BabiPHP <small>1.3.1</small>
 
 > The flexible PHP Framework.
 
