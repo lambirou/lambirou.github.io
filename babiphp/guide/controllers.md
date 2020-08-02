@@ -1,9 +1,0 @@
-# Controllers (Les Contrôleurs)
-
-Les Controllers sont le “C” dans MVC. Après que le routage a été appliqué et que le bon controller a été trouvé, l’action de votre controller est appelée. Votre controller devra gérer l’interprétation des données requêtées, s’assurer que les bons models sont appelés et que la bonne réponse ou vue est rendue. Les controllers peuvent être imaginés comme une couche au milieu entre le Model et la Vue. Le mieux est de garder des controllers peu chargés, et des models plus fournis. Cela vous aidera à réutiliser votre code et facilitera le test de votre code.
-
-Habituellement, les controllers sont utilisés pour gérer la logique autour d’un seul model. Par exemple, si vous construisez un site pour gérer une boulangerie en-ligne, vous aurez sans doute un RecettesController qui gère vos recettes et un IngredientsController qui gère vos ingrédients. Cependant, il est aussi possible d’avoir des controllers qui fonctionnent avec plus d’un model. Dans BabiPHP, un controller est nommé d’après le model principal qu’il gère.
-
-Les controllers de votre application sont des classes qui étendent la classe BabiPHP AppController, qui hérite elle-même de la classe Controller du cœur. La classe AppController peut être définie dans src/Controller/AppController.php et elle devra contenir les méthodes partagées par tous les controllers de votre application.
-
-Les controllers peuvent inclure un certain nombre de méthodes qui gèrent les requêtes. Celles-ci sont appelées des actions. Par défaut, chaque méthode publique dans un controller est une action accessible via une URL. Une action est responsable de l’interprétation des requêtes et de la création de la réponse. Habituellement, les réponses sont sous forme de vue rendue, mais il y a aussi d’autres façons de créer des réponses.
